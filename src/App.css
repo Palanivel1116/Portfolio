@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  background-color: rgb(5, 4, 50);
+}
+header ul li{
+  @apply px-3;
+}
+/* .bg-primary{
+  background: rgb(12, 10, 87);
+} */
+.mobile-nav{
+  @apply fixed top-10 left-0 bg-gray-500 w-full h-1/6;
+}
+.mobile-nav li{
+  @apply w-full h-full text-center border-b-2;
+}
+.section-h1{
+  margin-top: 100px;
 }
