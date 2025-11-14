@@ -8,7 +8,7 @@ const Header = () => {
         Portfolio
       </h1>
       <nav>
-        <ul className="flex flex-wrap justify-center md:justify-end gap-6 text-lg">
+        <ul className="flex flex-wrap justify-center font-bold text-lg md:justify-end gap-6 text-lg">
           <li>
             <Link
               to="home"
