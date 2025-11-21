@@ -44,7 +44,7 @@ const ContactSection = () => {
       </div>
 
       <footer className="mt-12 text-center text-gray-400 text-sm">
-        © 2024 Palanivel P. All rights reserved.
+        © 2025 Palanivel P. All rights reserved.
       </footer>
     </section>
   );
